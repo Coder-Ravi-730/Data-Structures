@@ -1,11 +1,10 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-void print(int arr[], int N)
-{
+void print(int arr[], int N){
 
-    for (int i = 0; i < N; i = i + 1)
-    {
+    for (int i = 0; i < N; i = i + 1){
         cout << arr[i] << " ";
     }
 }
@@ -37,4 +36,6 @@ int main(){
     }
 
     cout << FindUnique(arr, N);
+
+    return 0;
 }

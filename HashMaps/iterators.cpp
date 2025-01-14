@@ -23,7 +23,6 @@ int main()
     // find
     unordered_map<string, int>::iterator it2 = ourmap.find("abc");
 
-
     // using iterators in vector
     vector<int> v;
     v.push_back(10);
@@ -37,6 +36,6 @@ int main()
         cout <<* it1 << " ";
         it1 = it1 + 1;
     }
-    
+
     return 0;
 }
